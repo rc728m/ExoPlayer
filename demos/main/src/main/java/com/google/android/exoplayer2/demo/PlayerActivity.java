@@ -67,6 +67,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+// TODO: video playlist
+
 /** An activity that plays media using {@link SimpleExoPlayer}. */
 public class PlayerActivity extends AppCompatActivity
     implements OnClickListener, PlaybackPreparer, StyledPlayerControlView.VisibilityListener {
