@@ -254,6 +254,9 @@
         to `DownloadManager.Listener.onDownloadChanged`.
     *   Support multiple non-overlapping write locks for the same key in
         `SimpleCache`.
+    *   Remove `CacheUtil`. Equivalent functionality is provided by a new
+        `CacheWriter` class, `Cache.getCachedBytes`, `Cache.removeResource` and
+        `CacheKeyFactory.DEFAULT`.
 *   DRM:
     *   Remove previously deprecated APIs to inject `DrmSessionManager` into
         `Renderer` instances. `DrmSessionManager` must now be injected into
@@ -334,6 +337,8 @@
     *   Remove support for media tunneling, random ABR and playback of
         spherical video. Developers wishing to experiment with these features
         can enable them by modifying the demo app source code.
+    *   Add support for downloading DRM-protected content using offline
+        Widevine licenses.
 
 ### 2.11.8 (2020-08-25) ###
 
