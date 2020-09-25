@@ -556,27 +556,19 @@
     ]
   },
   {
-    "name": "Testing",
+    "name": "Testing Week 09/20/20",
     "samples": [
       {
-        "name": "Sintel (HLS v3)",
-        "uri": "http://amssamples.streaming.mediaservices.windows.net/f1ee994f-fcb8-455f-a15d-07f6f2081a60/SintelMultiAudio.ism/manifest(format=m3u8-aapl-v3)"
+        "name": "Saving Private Ryan",
+        "uri": "https://att-advavtech-output.s3.amazonaws.com/csula/At_S_SPR_1080p24.m3u8"
       },
       {
-        "name": "Sintel (HLS v4)",
-        "uri": "http://amssamples.streaming.mediaservices.windows.net/f1ee994f-fcb8-455f-a15d-07f6f2081a60/SintelMultiAudio.ism/manifest(format=m3u8-aapl)"
+        "name": "PJ Masks",
+        "uri": "https://att-advavtech-output.s3.amazonaws.com/csula/PJMasks_1080p24.m3u8"
       },
       {
-        "name": "Sintel (HLS)",
-        "uri": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-      },
-      {
-        "name": "Elephants Dream (DASH)",
-        "uri": "https://dash.akamaized.net/dash264/TestCases/2c/qualcomm/1/MultiResMPEG2.mpd"
-      },
-      {
-        "name": "Tears of Steel (DASH)",
-        "uri": "https://dash.akamaized.net/dash264/TestCasesIOP41/CMAF/UnifiedStreaming/ToS_AVC_MultiRate_MultiRes_AAC_Eng_WebVTT.mpd"
+        "name": "CNN",
+        "uri": "https://att-advavtech-output.s3.amazonaws.com/csula/CNN-2597-03-131.m3u8"
       }
     ]
   }
